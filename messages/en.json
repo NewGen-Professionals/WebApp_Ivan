@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About Us",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Saona Island Stars",
+    "subtitle": "Because Saona Island has more to offer!",
+    "description": "Six excursions to Saona Island from Punta Cana, all different. Find your favorite excursion now and let the specialists show you the island.",
+    "cta": "See Tours"
+  },
+  "benefits": {
+    "title": "Benefits",
+    "description": "At Saona Island Stars, we offer much more than just a trip to Saona Island: an unforgettable experience. We focus on every detail so you can focus solely on enjoying yourself.",
+    "allInclusive": "All inclusive prices",
+    "allInclusiveDesc": "Pick up from hotels in Punta Cana, Bavaro, Uvero Alto, Cabeza de Toro, La Romana and Bayahibe",
+    "exclusive": "Exclusive excursions, without intermediaries",
+    "exclusiveDesc": "We guarantee the best price thanks to our direct sales system",
+    "personalized": "Small and personalized groups",
+    "personalizedDesc": "Spanish, English, German and French",
+    "flexibility": "Flexibility",
+    "flexibilityDesc": "Possibility of cancellation and change of date"
+  },
+  "tours": {
+    "title": "Our Excursions",
+    "viewAll": "See All Tours",
+    "from": "From",
+    "perPerson": "per person",
+    "bookNow": "Book Now",
+    "max": "Max",
+    "people": "people",
+    "fullDay": "Full Day",
+    "halfDay": "Half Day",
+    "relax": "Relax",
+    "adventure": "Adventure",
+    "party": "Party",
+    "culture": "Culture"
+  },
+  "testimonials": {
+    "title": "What do you think about Saona Island Stars?",
+    "readMore": "Read more"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send"
+  },
+  "footer": {
+    "allRightsReserved": "All Rights Reserved",
+    "legalNotice": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies Policy",
+    "terms": "Terms and Conditions"
+  },
+  "booking": {
+    "title": "Book Your Tour",
+    "step1": "Select Tour & Date",
+    "step2": "Your Information",
+    "step3": "Review & Payment",
+    "selectTour": "Select a tour",
+    "selectDate": "Select date",
+    "numberOfPeople": "Number of people",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "specialRequests": "Special Requests (Optional)",
+    "next": "Next",
+    "back": "Back",
+    "confirmAndPay": "Confirm & Pay",
+    "total": "Total",
+    "bookingSummary": "Booking Summary",
+    "tour": "Tour",
+    "date": "Date",
+    "guests": "Guests"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  }
+}
+

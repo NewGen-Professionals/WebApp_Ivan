@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "tours": "Excursiones",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "bookNow": "Reservar Ahora"
+  },
+  "hero": {
+    "title": "Saona Island Stars",
+    "subtitle": "¡Porque la Isla Saona tiene mucho más que ofrecer!",
+    "description": "Seis excursiones a la Isla Saona desde Punta Cana, todas diferentes. Encuentra tu excursión favorita ahora y deja que los especialistas te muestren la isla.",
+    "cta": "Ver Excursiones"
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "description": "En Saona Island Stars, ofrecemos mucho más que un simple viaje a la Isla Saona: una experiencia inolvidable. Nos enfocamos en cada detalle para que puedas concentrarte únicamente en disfrutar.",
+    "allInclusive": "Precios todo incluido",
+    "allInclusiveDesc": "Recogida desde hoteles en Punta Cana, Bávaro, Uvero Alto, Cabeza de Toro, La Romana y Bayahibe",
+    "exclusive": "Excursiones exclusivas, sin intermediarios",
+    "exclusiveDesc": "Garantizamos el mejor precio gracias a nuestro sistema de venta directa",
+    "personalized": "Grupos pequeños y personalizados",
+    "personalizedDesc": "Español, Inglés, Alemán y Francés",
+    "flexibility": "Flexibilidad",
+    "flexibilityDesc": "Posibilidad de cancelación y cambio de fecha"
+  },
+  "tours": {
+    "title": "Nuestras Excursiones",
+    "viewAll": "Ver Todas las Excursiones",
+    "from": "Desde",
+    "perPerson": "por persona",
+    "bookNow": "Reservar Ahora",
+    "max": "Máx",
+    "people": "personas",
+    "fullDay": "Día Completo",
+    "halfDay": "Medio Día",
+    "relax": "Relajación",
+    "adventure": "Aventura",
+    "party": "Fiesta",
+    "culture": "Cultura"
+  },
+  "testimonials": {
+    "title": "¿Qué opinan sobre Saona Island Stars?",
+    "readMore": "Leer más"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "footer": {
+    "allRightsReserved": "Todos los Derechos Reservados",
+    "legalNotice": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "cookies": "Política de Cookies",
+    "terms": "Términos y Condiciones"
+  },
+  "booking": {
+    "title": "Reserva Tu Excursión",
+    "step1": "Seleccionar Excursión y Fecha",
+    "step2": "Tu Información",
+    "step3": "Revisar y Pagar",
+    "selectTour": "Selecciona una excursión",
+    "selectDate": "Selecciona la fecha",
+    "numberOfPeople": "Número de personas",
+    "fullName": "Nombre Completo",
+    "emailAddress": "Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "specialRequests": "Solicitudes Especiales (Opcional)",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "confirmAndPay": "Confirmar y Pagar",
+    "total": "Total",
+    "bookingSummary": "Resumen de Reserva",
+    "tour": "Excursión",
+    "date": "Fecha",
+    "guests": "Invitados"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "success": "¡Éxito!",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar"
+  }
+}
+

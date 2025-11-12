@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "tours": "Ausflüge",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "bookNow": "Jetzt Buchen"
+  },
+  "hero": {
+    "title": "Saona Island Stars",
+    "subtitle": "Weil Saona Island mehr zu bieten hat!",
+    "description": "Sechs Ausflüge zur Insel Saona von Punta Cana, alle unterschiedlich. Finden Sie jetzt Ihren Lieblingsausflug und lassen Sie sich von den Spezialisten die Insel zeigen.",
+    "cta": "Ausflüge Ansehen"
+  },
+  "benefits": {
+    "title": "Vorteile",
+    "description": "Bei Saona Island Stars bieten wir viel mehr als nur eine Reise zur Insel Saona: ein unvergessliches Erlebnis. Wir konzentrieren uns auf jedes Detail, damit Sie sich nur auf das Genießen konzentrieren können.",
+    "allInclusive": "All-inclusive-Preise",
+    "allInclusiveDesc": "Abholung von Hotels in Punta Cana, Bavaro, Uvero Alto, Cabeza de Toro, La Romana und Bayahibe",
+    "exclusive": "Exklusive Ausflüge, ohne Zwischenhändler",
+    "exclusiveDesc": "Wir garantieren den besten Preis dank unseres Direktvertriebssystems",
+    "personalized": "Kleine und personalisierte Gruppen",
+    "personalizedDesc": "Spanisch, Englisch, Deutsch und Französisch",
+    "flexibility": "Flexibilität",
+    "flexibilityDesc": "Möglichkeit der Stornierung und Datumsänderung"
+  },
+  "tours": {
+    "title": "Unsere Ausflüge",
+    "viewAll": "Alle Ausflüge Ansehen",
+    "from": "Ab",
+    "perPerson": "pro Person",
+    "bookNow": "Jetzt Buchen",
+    "max": "Max",
+    "people": "Personen",
+    "fullDay": "Ganztägig",
+    "halfDay": "Halbtägig",
+    "relax": "Entspannung",
+    "adventure": "Abenteuer",
+    "party": "Party",
+    "culture": "Kultur"
+  },
+  "testimonials": {
+    "title": "Was denken Sie über Saona Island Stars?",
+    "readMore": "Mehr lesen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "footer": {
+    "allRightsReserved": "Alle Rechte Vorbehalten",
+    "legalNotice": "Impressum",
+    "privacy": "Datenschutzrichtlinie",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Allgemeine Geschäftsbedingungen"
+  },
+  "booking": {
+    "title": "Buchen Sie Ihren Ausflug",
+    "step1": "Ausflug & Datum Wählen",
+    "step2": "Ihre Informationen",
+    "step3": "Überprüfen & Bezahlen",
+    "selectTour": "Wählen Sie einen Ausflug",
+    "selectDate": "Datum wählen",
+    "numberOfPeople": "Anzahl der Personen",
+    "fullName": "Vollständiger Name",
+    "emailAddress": "E-Mail-Adresse",
+    "phoneNumber": "Telefonnummer",
+    "specialRequests": "Besondere Wünsche (Optional)",
+    "next": "Weiter",
+    "back": "Zurück",
+    "confirmAndPay": "Bestätigen & Bezahlen",
+    "total": "Gesamt",
+    "bookingSummary": "Buchungszusammenfassung",
+    "tour": "Ausflug",
+    "date": "Datum",
+    "guests": "Gäste"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg!",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "confirm": "Bestätigen"
+  }
+}
+
