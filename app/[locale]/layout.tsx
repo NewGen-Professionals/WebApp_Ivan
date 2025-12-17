@@ -18,8 +18,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Saona Island Stars - Exclusive Tours to Paradise",
+  title: "Isla Saona - Exclusive Tours to Paradise",
   description: "Discover the most beautiful beaches of Saona Island with our exclusive tours from Punta Cana. Small groups, personalized service, and unforgettable experiences.",
+  icons: {
+    icon: '/starfish.svg',
+  },
 };
 
 export function generateStaticParams() {
