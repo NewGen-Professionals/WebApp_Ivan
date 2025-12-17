@@ -5,6 +5,8 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import "../globals.css";
 
+export const runtime = 'edge';
+
 const locales = ['en', 'es', 'fr', 'de'] as const;
 
 const geistSans = Geist({
