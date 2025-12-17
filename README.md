@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saona Island Tours - Tour Booking Website
 
-## Getting Started
+A modern, multi-language tour booking website for Saona Island excursions with integrated Stripe payments.
 
-First, run the development server:
+## 🌟 Features
+
+- ✅ **Multi-language Support** - English, Spanish, French, German
+- ✅ **6 Tour Options** - Relax, Adventure, and Party categories
+- ✅ **Interactive Booking System** - 3-step booking process
+- ✅ **Stripe Payment Integration** - Secure payment processing
+- ✅ **Responsive Design** - Works on all devices
+- ✅ **Caribbean-themed UI** - Beautiful, modern design
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+
+```bash
+npm install --legacy-peer-deps
+```
+
+### 2. Set Up Stripe (Required for Payments)
+
+1. Create a free account at [stripe.com](https://stripe.com)
+2. Get your test API keys from the [Stripe Dashboard](https://dashboard.stripe.com/test/apikeys)
+3. Update `.env.local` with your keys:
+
+```bash
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
+STRIPE_SECRET_KEY=sk_test_your_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
+
+📖 **Detailed Stripe setup guide**: See [STRIPE_SETUP.md](./STRIPE_SETUP.md)
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Testing Payments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Use Stripe test cards:
+- **Success**: `4242 4242 4242 4242`
+- **Decline**: `4000 0000 0000 0002`
+- Use any future date, any CVC, any ZIP
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/
+│   ├── [locale]/           # Multi-language routes
+│   │   ├── page.tsx        # Homepage
+│   │   ├── booking/        # Booking pages
+│   │   └── tours/          # Tours listing
+│   ├── api/                # API routes
+│   │   └── create-checkout-session/  # Stripe integration
+│   └── globals.css         # Global styles
+├── components/
+│   ├── ui/                 # UI components
+│   └── tours/              # Tour components
+├── messages/               # Translation files
+│   ├── en.json
+│   ├── es.json
+│   ├── fr.json
+│   └── de.json
+└── lib/
+    └── stripe.ts           # Stripe configuration
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Supported Languages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🇬🇧 English (EN)
+- 🇪🇸 Spanish (ES)
+- 🇫🇷 French (FR)
+- 🇩🇪 German (DE)
 
-## Deploy on Vercel
+## 🎨 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Payments**: Stripe
+- **i18n**: next-intl
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Available Tours
+
+1. **Saona Classic** ($89) - Most popular beach tour
+2. **Saona VIP Experience** ($149) - Exclusive small group
+3. **Saona Party Boat** ($99) - DJ and unlimited drinks
+4. **Saona Adventure Tour** ($119) - Speedboat and kayaking
+5. **Saona Sunset Romance** ($179) - Romantic couples tour
+6. **Saona Family Fun** ($79) - Family-friendly activities
+
+## 🔧 Configuration
+
+### Environment Variables
+
+Create a `.env.local` file with:
+
+```bash
+# Stripe (Required)
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
+STRIPE_SECRET_KEY=sk_test_...
+
+# App URL
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
+
+## 📱 Features Walkthrough
+
+### Homepage
+- Hero section with CTA
+- Benefits section
+- All 6 tours with category filter
+- Testimonials
+- Contact form
+
+### Booking Flow
+1. **Step 1**: Select tour, date, and number of people
+2. **Step 2**: Enter customer information
+3. **Step 3**: Review and confirm
+4. **Payment**: Redirect to Stripe Checkout
+5. **Success**: Confirmation page with booking reference
+
+## 🚢 Deployment
+
+### Vercel (Recommended)
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Add environment variables
+4. Deploy!
+
+### Other Platforms
+
+Works on any platform that supports Next.js:
+- Netlify
+- Railway
+- AWS Amplify
+- Self-hosted
+
+## 📞 Contact
+
+- **Email**: info@saona-island-stars.com
+- **Phone**: +1 829 814 8619
+- **Address**: Av. Barceló km 3.5, Bavaro, Dominican Republic
+
+## 📄 License
+
+Private project for NewGen Professionals
+
+---
+
+**Built with ❤️ for Saona Island Tours**

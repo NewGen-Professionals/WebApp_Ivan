@@ -27,8 +27,19 @@ export default function TestimonialsSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-caribbean-sand/30 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-20 overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/island pic 3.png')",
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/85 to-white/90" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-caribbean-deep-blue mb-4">
             {t('title')}
@@ -39,7 +50,7 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               {/* Rating Stars */}
               <div className="flex mb-4">

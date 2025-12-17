@@ -9,7 +9,7 @@
   "hero": {
     "title": "Saona Island Stars",
     "subtitle": "Parce que l'île de Saona a plus à offrir!",
-    "description": "Six excursions vers l'île de Saona depuis Punta Cana, toutes différentes. Trouvez votre excursion préférée maintenant et laissez les spécialistes vous montrer l'île.",
+    "description": "Vivez l'aventure ultime de l'île de Saona. Embarquez sur un bateau rapide ou un catamaran, fêtez sur le catamaran et les piscines naturelles, profitez d'un moment de détente sur l'île et retournez en bateau ou catamaran.",
     "cta": "Voir les Excursions"
   },
   "benefits": {
@@ -25,7 +25,7 @@
     "flexibilityDesc": "Possibilité d'annulation et de changement de date"
   },
   "tours": {
-    "title": "Nos Excursions",
+    "title": "Notre Excursion",
     "viewAll": "Voir Toutes les Excursions",
     "from": "À partir de",
     "perPerson": "par personne",

@@ -8,8 +8,8 @@
   },
   "hero": {
     "title": "Saona Island Stars",
-    "subtitle": "Because Saona Island has more to offer!",
-    "description": "Six excursions to Saona Island from Punta Cana, all different. Find your favorite excursion now and let the specialists show you the island.",
+    "subtitle": "Experience the ultimate Saona Island adventure",
+    "description": "Discover Saona Island's protected biosphere. Travel by speedboat and catamaran, swim in natural pools, enjoy beach activities, and savor a Dominican buffet with an open bar.",
     "cta": "See Tours"
   },
   "benefits": {
@@ -25,7 +25,7 @@
     "flexibilityDesc": "Possibility of cancellation and change of date"
   },
   "tours": {
-    "title": "Our Excursions",
+    "title": "Our Excursion",
     "viewAll": "See All Tours",
     "from": "From",
     "perPerson": "per person",

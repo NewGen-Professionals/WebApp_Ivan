@@ -1,0 +1,15 @@
+{"location":"booking/page.tsx:useEffect","message":"Cal.com init start","data":{},"timestamp":1766011753358,"sessionId":"debug-session","hypothesisId":"A"}
+{"location":"booking/page.tsx:useEffect","message":"Cal.com init start","data":{},"timestamp":1766011753359,"sessionId":"debug-session","hypothesisId":"A"}
+{"location":"booking/page.tsx:useEffect","message":"getCalApi resolved with namespace","data":{"calType":"function"},"timestamp":1766011753359,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal ui config set","data":{},"timestamp":1766011753359,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal ui config set","data":{},"timestamp":1766011753359,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"getCalApi resolved with namespace","data":{"calType":"function"},"timestamp":1766011753359,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal.com init start","data":{},"timestamp":1766011957586,"sessionId":"debug-session","hypothesisId":"A"}
+{"location":"booking/page.tsx:useEffect","message":"getCalApi resolved with namespace","data":{"calType":"function"},"timestamp":1766011957589,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal ui config set","data":{},"timestamp":1766011957589,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal.com init start","data":{},"timestamp":1766011961882,"sessionId":"debug-session","hypothesisId":"A"}
+{"location":"booking/page.tsx:useEffect","message":"Cal.com init start","data":{},"timestamp":1766011961882,"sessionId":"debug-session","hypothesisId":"A"}
+{"location":"booking/page.tsx:useEffect","message":"getCalApi resolved with namespace","data":{"calType":"function"},"timestamp":1766011961883,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal ui config set","data":{},"timestamp":1766011961883,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"getCalApi resolved with namespace","data":{"calType":"function"},"timestamp":1766011961883,"sessionId":"debug-session","hypothesisId":"E"}
+{"location":"booking/page.tsx:useEffect","message":"Cal ui config set","data":{},"timestamp":1766011961883,"sessionId":"debug-session","hypothesisId":"E"}

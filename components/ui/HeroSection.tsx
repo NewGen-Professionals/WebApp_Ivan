@@ -9,14 +9,24 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Video with Overlay */}
       <div className="absolute inset-0 z-0">
+        {/* Fallback image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070')",
+            backgroundImage: "url('/images/island pic 1.png')",
           }}
         />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/videos/saona drone view.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-caribbean-deep-blue/60 via-caribbean-blue/40 to-caribbean-turquoise/60" />
       </div>
 
@@ -31,12 +41,12 @@ export default function HeroSection() {
         <p className="text-lg sm:text-xl text-white/95 mb-8 max-w-3xl mx-auto drop-shadow">
           {t('description')}
         </p>
-        <Link
-          href={`/${locale}/tours`}
+        <a
+          href="#tours"
           className="inline-block bg-caribbean-coral text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-caribbean-deep-blue transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
         >
           {t('cta')}
-        </Link>
+        </a>
       </div>
 
       {/* Scroll Indicator */}

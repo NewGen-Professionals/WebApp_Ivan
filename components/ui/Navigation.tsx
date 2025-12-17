@@ -45,12 +45,12 @@ export default function Navigation() {
             >
               {t('home')}
             </Link>
-            <Link
-              href={`/${locale}/tours`}
+            <a
+              href="#tours"
               className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
             >
               {t('tours')}
-            </Link>
+            </a>
             <Link
               href={`/${locale}#about`}
               className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
@@ -134,13 +134,13 @@ export default function Navigation() {
               >
                 {t('home')}
               </Link>
-              <Link
-                href={`/${locale}/tours`}
+              <a
+                href="#tours"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
               >
                 {t('tours')}
-              </Link>
+              </a>
               <Link
                 href={`/${locale}#about`}
                 onClick={() => setIsMenuOpen(false)}
