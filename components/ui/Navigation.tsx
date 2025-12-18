@@ -51,18 +51,6 @@ export default function Navigation() {
             >
               {t('tours')}
             </a>
-            <Link
-              href={`/${locale}#about`}
-              className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
-            >
-              {t('about')}
-            </Link>
-            <Link
-              href={`/${locale}#contact`}
-              className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
-            >
-              {t('contact')}
-            </Link>
 
             {/* Language Selector */}
             <div className="relative">
@@ -141,20 +129,6 @@ export default function Navigation() {
               >
                 {t('tours')}
               </a>
-              <Link
-                href={`/${locale}#about`}
-                onClick={() => setIsMenuOpen(false)}
-                className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
-              >
-                {t('about')}
-              </Link>
-              <Link
-                href={`/${locale}#contact`}
-                onClick={() => setIsMenuOpen(false)}
-                className="text-gray-700 hover:text-caribbean-blue transition-colors font-medium"
-              >
-                {t('contact')}
-              </Link>
 
               {/* Mobile Language Selector */}
               <div className="pt-2 border-t border-gray-100">
