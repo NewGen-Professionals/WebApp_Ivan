@@ -1,0 +1,9 @@
+name = "webapp-ivan"
+main = ".vercel/output/static/_worker.js"
+compatibility_date = "2024-12-18"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".vercel/output/static"
+binding = "ASSETS"
+
