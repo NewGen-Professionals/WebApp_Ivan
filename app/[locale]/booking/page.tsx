@@ -13,7 +13,7 @@ export default function BookingPage() {
 
       <main className="flex-grow py-20 bg-caribbean-sand/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-center text-caribbean-deep-blue mb-12">
+          <h1 className="text-4xl font-bold text-center text-caribbean-deep-blue mb-12 mt-12">
             {t('title')}
           </h1>
 
