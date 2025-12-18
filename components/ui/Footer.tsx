@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-caribbean-deep-blue text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4 font-isla-saona">Isla 🌴 Saona</h3>
@@ -84,32 +84,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Legal</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href={`/${locale}/legal`} className="text-blue-100 hover:text-white transition-colors">
-                  {t('legalNotice')}
-                </Link>
-              </li>
-              <li>
-                <Link href={`/${locale}/privacy`} className="text-blue-100 hover:text-white transition-colors">
-                  {t('privacy')}
-                </Link>
-              </li>
-              <li>
-                <Link href={`/${locale}/cookies`} className="text-blue-100 hover:text-white transition-colors">
-                  {t('cookies')}
-                </Link>
-              </li>
-              <li>
-                <Link href={`/${locale}/terms`} className="text-blue-100 hover:text-white transition-colors">
-                  {t('terms')}
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-blue-700 mt-8 pt-8 text-center text-blue-100">
