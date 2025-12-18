@@ -11,21 +11,21 @@ export default function TestimonialsSection() {
       rating: 5,
       title: 'Stunning excursion to Saona',
       text: 'I can highly recommend the Saona tour to anyone who loves the nature and the good tour guides. I learned a lot about the country, the island and its inhabitants, politics, gastronomy and nature. The beaches really left me open-mouthed and we had enough time to enjoy it all.',
-      video: '/videos/plage 1.MOV',
+      video: '/videos/plage-1.mp4',
     },
     {
       name: 'Brigitte',
       rating: 5,
       title: 'Dream day in Saona',
       text: 'We booked the Saona Exclusive Tour and we were not disappointed. In a small group of 8 people took a speedboat to Saona Island and explored the beaches of dream and the fishing village. We were alone almost everywhere except in the fishing village.',
-      video: '/videos/plage 2.MOV',
+      video: '/videos/plage-2.mp4',
     },
     {
       name: 'Melina S.',
       rating: 5,
       title: 'Absolute recommendation!',
       text: 'We did the Saona tour and we were absolutely delighted! The places are super beautiful, you always have enough time to look at everything and take photos and the company was especially great. The atmosphere in the group was lively and there was plenty of food and drink during all day long.',
-      video: '/videos/plage 3.MOV',
+      video: '/videos/plage-3.mp4',
     },
   ]
 
@@ -56,15 +56,22 @@ export default function TestimonialsSection() {
               className="bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               {/* Video */}
-              <div className="relative h-48 w-full overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden bg-caribbean-sand/30">
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
                   className="absolute inset-0 w-full h-full object-cover"
+                  onError={(e) => {
+                    // Hide video if it fails to load
+                    const target = e.target as HTMLVideoElement;
+                    if (target.parentElement) {
+                      target.parentElement.style.display = 'none';
+                    }
+                  }}
                 >
-                  <source src={testimonial.video} type="video/quicktime" />
+                  <source src={testimonial.video} type="video/mp4" />
                 </video>
               </div>
 
