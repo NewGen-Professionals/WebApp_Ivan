@@ -13,19 +13,16 @@ export default function BookingPage() {
 
       <main className="flex-grow py-20 bg-caribbean-sand/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-center text-caribbean-deep-blue mb-12 mt-12">
+          <h1 className="text-4xl font-bold text-center text-caribbean-deep-blue mb-12 mt-12 font-isla-saona">
             {t('title')}
           </h1>
 
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden p-4 min-h-[700px]">
-            {/* 
-              TODO: Replace the src below with your actual Cal.com event link
-              Example: src="https://cal.com/ivans-tours/saona-excursion"
-            */}
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden p-6 md:p-8 min-h-[700px] border border-caribbean-sand/30">
             <iframe 
-              src="https://cal.com/ivan-baez-vrnunf/saona-island-excursion?embed=true&brandColor=%23006994&theme=light"
-              style={{ width: "100%", height: "100%", minHeight: "700px", border: "none", borderRadius: "8px" }}
+              src="https://cal.com/ivan-baez-vrnunf/saona-island-excursion?embed=true&brandColor=%230369A1&theme=light&hideEventTypeDetails=false"
+              style={{ width: "100%", height: "100%", minHeight: "700px", border: "none", borderRadius: "12px" }}
               title="Book your tour"
+              className="w-full"
             />
           </div>
         </div>
