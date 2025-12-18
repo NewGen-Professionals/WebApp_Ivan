@@ -32,7 +32,7 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg font-[var(--font-isla-saona)]">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg font-isla-saona">
           {t('title')}
         </h1>
         <p className="text-2xl sm:text-3xl text-white mb-4 font-semibold drop-shadow-md">
