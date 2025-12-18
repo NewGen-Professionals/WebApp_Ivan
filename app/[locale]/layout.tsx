@@ -5,6 +5,8 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import "../globals.css";
 
+export const runtime = 'edge';
+
 const locales = ['en', 'es', 'fr', 'de'] as const;
 
 const geistSans = Geist({
@@ -24,10 +26,6 @@ export const metadata: Metadata = {
     icon: '/starfish.svg',
   },
 };
-
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
 
 export default async function LocaleLayout({
   children,
