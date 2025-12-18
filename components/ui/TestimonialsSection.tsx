@@ -11,18 +11,21 @@ export default function TestimonialsSection() {
       rating: 5,
       title: 'Stunning excursion to Saona',
       text: 'I can highly recommend the Saona tour to anyone who loves the nature and the good tour guides. I learned a lot about the country, the island and its inhabitants, politics, gastronomy and nature. The beaches really left me open-mouthed and we had enough time to enjoy it all.',
+      video: '/videos/plage 1.MOV',
     },
     {
       name: 'Brigitte',
       rating: 5,
       title: 'Dream day in Saona',
       text: 'We booked the Saona Exclusive Tour and we were not disappointed. In a small group of 8 people took a speedboat to Saona Island and explored the beaches of dream and the fishing village. We were alone almost everywhere except in the fishing village.',
+      video: '/videos/plage 2.MOV',
     },
     {
       name: 'Melina S.',
       rating: 5,
       title: 'Absolute recommendation!',
       text: 'We did the Saona tour and we were absolutely delighted! The places are super beautiful, you always have enough time to look at everything and take photos and the company was especially great. The atmosphere in the group was lively and there was plenty of food and drink during all day long.',
+      video: '/videos/plage 3.MOV',
     },
   ]
 
@@ -50,10 +53,24 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              {/* Rating Stars */}
-              <div className="flex mb-4">
+              {/* Video */}
+              <div className="relative h-48 w-full overflow-hidden">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                >
+                  <source src={testimonial.video} type="video/quicktime" />
+                </video>
+              </div>
+
+              <div className="p-8">
+                {/* Rating Stars */}
+                <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <svg
                     key={i}
@@ -73,13 +90,14 @@ export default function TestimonialsSection() {
               {/* Text */}
               <p className="text-gray-600 mb-4 leading-relaxed">{testimonial.text}</p>
 
-              {/* Author */}
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-caribbean-blue rounded-full flex items-center justify-center text-white font-bold">
-                  {testimonial.name.charAt(0)}
-                </div>
-                <div className="ml-3">
-                  <p className="font-semibold text-gray-900">{testimonial.name}</p>
+                {/* Author */}
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-caribbean-blue rounded-full flex items-center justify-center text-white font-bold">
+                    {testimonial.name.charAt(0)}
+                  </div>
+                  <div className="ml-3">
+                    <p className="font-semibold text-gray-900">{testimonial.name}</p>
+                  </div>
                 </div>
               </div>
             </div>
