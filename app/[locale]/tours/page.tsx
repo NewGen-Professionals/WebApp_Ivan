@@ -43,7 +43,7 @@ export default function ToursPage() {
         de: 'Ausflug zur Insel Saona'
       },
       shortDesc: {
-        en: 'Discover the natural beauty of Saona Island, the Dominican Republic&apos;s most important protected biosphere.',
+        en: 'Discover the natural beauty of Saona Island, the Dominican Republic\'s most important protected biosphere.',
         es: 'Descubre la belleza natural de la Isla Saona, la biosfera protegida más importante de la República Dominicana.',
         fr: 'Découvrez la beauté naturelle de l&apos;île de Saona, la biosphère protégée la plus importante de la République dominicaine.',
         de: 'Entdecken Sie die natürliche Schönheit der Insel Saona, dem wichtigsten geschützten Biosphärenreservat der Dominikanischen Republik.'
