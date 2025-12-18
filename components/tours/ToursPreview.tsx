@@ -49,7 +49,7 @@ export default function ToursPreview() {
             'Return to Bayahibe by catamaran or speedboat, the opposite of what brought you to Saona'
           ],
           included: [
-            'Round-trip, air-conditioned transportation',
+            'Round-trip transportation',
             'Open bar on Saona Island including water, soft drinks, beer, rum and coffee',
             'Buffet lunch on Saona Island',
             'Hotel pick-up and drop off included'
