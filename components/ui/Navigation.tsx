@@ -32,8 +32,8 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-caribbean-blue">
-              Saona Island Stars
+            <div className="text-2xl font-bold text-caribbean-blue font-[var(--font-isla-saona)]">
+              Isla Saona
             </div>
           </Link>
 
