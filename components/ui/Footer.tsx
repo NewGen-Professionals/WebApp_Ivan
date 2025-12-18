@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 font-isla-saona">Isla Saona</h3>
+            <h3 className="text-2xl font-bold mb-4 font-isla-saona">Isla 🌴 Saona</h3>
             <p className="text-blue-100 mb-4">
               C. Marien 2, Punta Cana 23000<br />
               Repubblica Dominicana
@@ -113,7 +113,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-blue-700 mt-8 pt-8 text-center text-blue-100">
-          <p>© {currentYear} Isla Saona - {t('allRightsReserved')}</p>
+          <p>© {currentYear} Isla 🌴 Saona - {t('allRightsReserved')}</p>
         </div>
       </div>
     </footer>
