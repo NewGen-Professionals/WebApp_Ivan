@@ -6,6 +6,7 @@ import { useSearchParams } from 'next/navigation'
 import Image from 'next/image'
 import Navigation from '@/components/ui/Navigation'
 import Footer from '@/components/ui/Footer'
+import { TOURS } from '@/lib/tours'
 
 export default function ToursPage() {
   const t = useTranslations('tours')
@@ -138,9 +139,9 @@ export default function ToursPage() {
           ]
         }
       },
-      price: 99,
+      price: TOURS['saona-island-excursion'].price,
       duration: 'Full Day',
-      maxCapacity: 20,
+      maxCapacity: TOURS['saona-island-excursion'].maxCapacity,
       category: 'Party',
       features: {
         en: ['Speedboat & catamaran', 'Natural pool swimming', 'Beach volleyball & dancing', 'Buffet lunch & open bar'],
@@ -182,7 +183,6 @@ export default function ToursPage() {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            tourName: selectedTour?.name[locale as keyof typeof selectedTour.name] || selectedTour?.name.en,
             tourPrice: selectedTour?.price,
             numberOfPeople: formData.numberOfPeople,
             customerEmail: formData.customerEmail,
